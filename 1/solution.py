@@ -1,7 +1,7 @@
 with open('input.txt', 'r') as file:
-    data = file.read()
+    f = file.read()
 
-data_case = data.upper()
+c = f.upper()
 
 with open('output.txt', 'w') as file:
-    file.write(data_case)
+    file.write(c)
