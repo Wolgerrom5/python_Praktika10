@@ -1,7 +1,5 @@
-with open('input.txt', 'r') as file:
-    f = file.read()
-
+with open('input.txt', 'r') as f:
+    f = f.read()
 c = f.upper()
-
-with open('output.txt', 'w') as file:
-    file.write(c)
+with open('output.txt', 'w') as f:
+    f.write(c)
